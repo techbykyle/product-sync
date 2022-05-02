@@ -1,0 +1,31 @@
+{
+  "name": "product-sync",
+  "federated-module-name": "ProductSync",
+  "version": "0.0.1",
+  "description": "Displays metrics for product synchronization.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "author": {
+    "name": "Kyle Melik",
+    "email": "kyle@techbykyle.com",
+    "url": "http://techbykyle.com/"
+  },
+  "license": "Unlicense",
+  "devDependencies": {
+    "webpack-dev-server": "4.6.0"
+  },
+  "dependencies": {
+    "@babel/core": "7.13.8",
+    "@babel/preset-react": "7.10.4",
+    "babel-loader": "8.1.0",
+    "html-webpack-plugin": "5.3.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-redux": "7.2.3",
+    "webpack": "5.58.1",
+    "webpack-cli": "4.9.1"
+  }
+}
