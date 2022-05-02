@@ -42,10 +42,10 @@ const ProductSync = ({device, http, httpAction, tile, useHttp, useInterval}) => 
         <div>
             <div 
                 style={{marginRight: 10, marginBottom: 10}}
-                className="float_l b f40 lightest_color badge bg-primary">
+                className="float_l b f35 lightest_color badge bg-primary">
                 {total_waiting}
             </div>
-            <div>
+            <div style={{lineHeight: 1.4}}>
                 <p className="f18">Total Waiting to Sync</p>
                 <p className="f14">Last Update: {udate}</p>
                 <p className="f14">Last Sync: {sdate}</p>
